@@ -1,7 +1,6 @@
 body {
   font-size: 18px;
   background-color: #fafafa;
-
 }
 .navbar li {
   display: inline;
@@ -9,20 +8,80 @@ body {
   margin: 0px 10px 0px 10px;
 }
 
-.title{
+.title {
   font-size: 2.25em;
 }
 
 /*Esta clase es para los H2*/
-.title2{
- font-size: 1.75em;
+.title2 {
+  font-size: 1.75em;
 }
 
 /*Esta clase es para los H3*/
-.title3{
+.title3 {
   font-size: 1.4em;
 }
 
-.title,.title2,.title3,.parragraph{
-  color:#24292e;
+.title,
+.title2,
+.title3,
+.parragraph {
+  color: #24292e;
+}
+.date {
+  margin-bottom: 30px;
+  color: #808080;
+  font-size: 0.75em;
+}
+.creators {
+  margin-top: 25px;
+}
+.divisor {
+  margin-top: 45px;
+  border: 0.5px solid #808080;
+  width: 80%;
+  opacity: 0.3;
+}
+.copyright {
+  text-align: center;
+}
+
+/*Comienzo consigna #3*/
+
+.helvetica{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bold{
+  font-weight: bold;
+}
+.dosis{
+  font-family: 'Dosis', sans-serif;
+}
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.responsive{
+  width: 100%;
+  height: auto; 
+}
+
+.colorlinks{
+  color:#0074c4;
+}
+.decorationlinks{
+  text-decoration-line: none;
+}
+
+a.link:hover{
+  color: #0098ff;
+  text-decoration: underline;
+}
+.floatr{
+  float: right;
 }
