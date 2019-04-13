@@ -1,6 +1,7 @@
 body {
   font-size: 18px;
   background-color: #fafafa;
+  text-align: justify;
 }
 .navbar li {
   display: inline;
@@ -84,4 +85,21 @@ a.link:hover{
 }
 .floatr{
   float: right;
+  width: 40%;
+  height: auto;
+
+}
+.floatl{
+  float: left;
+  width: 60%;
+  height: auto;
+ 
+}
+.both{
+  clear: both;
+}
+
+.margin-top-24{
+  margin: 24px 0 0 0 ;
+  
 }
